@@ -42,6 +42,6 @@ Technologies used in the project:
 *   ReactJs
 *   NodeJs
 
-## PREVIEW APP ##
+## PREVIEW ##
 ![image](https://github.com/iAyubDev/Rava.AI/assets/156799324/432da1de-0f43-425f-8f6b-3384c9eebcba)
 
