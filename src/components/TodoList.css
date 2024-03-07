@@ -1,0 +1,58 @@
+/* TodoList.css */
+
+body {
+    background-color: #B5C0D0;
+    font-family: Arial, sans-serif;
+}
+
+.todo-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #F5E8DD;
+    border-radius: 5px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.todo-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button-edit {
+    background-color: #B4B4B8;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-delete {
+    background-color: #D04848;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .todo-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .todo-buttons {
+        margin-top: 10px;
+    }
+}
